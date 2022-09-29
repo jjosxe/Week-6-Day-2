@@ -29,110 +29,110 @@ seconds = [1.23, 1.45, 1.02, 1.11]
 # < less
 # >= greater or equal
 # <= less or equal
-# == equal
-# != different or not equal to
+# # == equal
+# # != different or not equal to
 
 
 
 
-# Comparison Operators Practice  1:
-# Create two variables (num1 and num2) with the following values: 36 and 17. Check if num1 is greater than or equal to num2 and store the result of that comparison in a variable called my_bool
+# # Comparison Operators Practice  1:
+# # Create two variables (num1 and num2) with the following values: 36 and 17. Check if num1 is greater than or equal to num2 and store the result of that comparison in a variable called my_bool
 
 
 
-# Comparison Operators Practice  2:
-# Create two variables (num1 and num2):
-# Inside num1, store the result of the square root of 25
-# Inside num2, store the number 5.
-# Check if num1 is equal to num2 and store the result of that comparison in a variable called my_bool.
+# # Comparison Operators Practice  2:
+# # Create two variables (num1 and num2):
+# # Inside num1, store the result of the square root of 25
+# # Inside num2, store the number 5.
+# # Check if num1 is equal to num2 and store the result of that comparison in a variable called my_bool.
 
 
-# Comparison Operators Practice #3:
-# Create two variables (num1 and num2):
+# # Comparison Operators Practice #3:
+# # Create two variables (num1 and num2):
 
-# Inside num1, store the result of 64 x 3
+# # Inside num1, store the result of 64 x 3
 
-# Inside num2, store the result of 24 x 8
+# # Inside num2, store the result of 24 x 8
 
-# Check if num1 is different from num2 and store the result of that comparison in a variable called my_bool.
-
-
-
-
-
-
-
-##############################logical operators##################################################
-
-
-# Logical Operators Practice #1
-# Create three variables (num1, num2, and num3):
-
-# Inside num1, store the value 36
-
-# Inside num2, stores the result of the operation 72/2
-
-# Inside num3, store the value 48
-
-# Check if num1 is greater than num2, and less than num3. Store the result of that comparison in a variable called my_bool.
-
-
-
-
-# Logical Operators Practice #2
-# Create three variables (num1, num2, and num3):
-
-# Inside num1, store the value 36
-
-# Inside num2, stores the result of the operation 72/2
-
-# Inside num3, store the value 48
-
-# Check if num1 is greater than num2, or less than num3. Store the result of that comparison in a variable called my_bool.
-
-
-
-# Logical Operators Practice #3
-# Check if the words:
-
-# word1 = "success", and
-
-# word2 = "technology"
-
-# are not found in the sentence below, and store the result (a boolean) in a variable called my_bool:
-
-# "When something is important enough, you do it even if the odds are against you" - Elon Musk
+# # Check if num1 is different from num2 and store the result of that comparison in a variable called my_bool.
 
 
 
 
 
-########################################decision making in python#####################################
 
-if 5 == 2:
-  print("It is correct.")
-else:
-  print("It is not correct")
 
-pet = "dog"
-if pet == "cat":
-  print("You have a cat")
-elif pet == "dog":
-  print("You have a dog")
-else:
-  print("I don't know what animal you have")
+# ##############################logical operators##################################################
 
-age = 16
-schoolGrade = 9
-if age < 18:
-  print("You are a minor")
-else:
-  print("You are an adult")
-  if schoolGrade >= 7:
-    print("Passed")
-  else:
-    print("Failed")
+
+# # Logical Operators Practice #1
+# # Create three variables (num1, num2, and num3):
+
+# # Inside num1, store the value 36
+
+# # Inside num2, stores the result of the operation 72/2
+
+# # Inside num3, store the value 48
+
+# # Check if num1 is greater than num2, and less than num3. Store the result of that comparison in a variable called my_bool.
+
+
+
+
+# # Logical Operators Practice #2
+# # Create three variables (num1, num2, and num3):
+
+# # Inside num1, store the value 36
+
+# # Inside num2, stores the result of the operation 72/2
+
+# # Inside num3, store the value 48
+
+# # Check if num1 is greater than num2, or less than num3. Store the result of that comparison in a variable called my_bool.
+
+
+
+# # Logical Operators Practice #3
+# # Check if the words:
+
+# # word1 = "success", and
+
+# # word2 = "technology"
+
+# # are not found in the sentence below, and store the result (a boolean) in a variable called my_bool:
+
+# # "When something is important enough, you do it even if the odds are against you" - Elon Musk
+
+
+
+
+
+# ########################################decision making in python#####################################
+
+# if 5 == 2:
+#   print("It is correct.")
 # else:
+#   print("It is not correct")
+
+# pet = "dog"
+# if pet == "cat":
+#   print("You have a cat")
+# elif pet == "dog":
+#   print("You have a dog")
+# else:
+#   print("I don't know what animal you have")
+
+# age = 16
+# schoolGrade = 9
+# if age < 18:
+#   print("You are a minor")
+# else:
+#   print("You are an adult")
+#   if schoolGrade >= 7:
+#     print("Passed")
+#   else:
+#     print("Failed")
+# # else:
 #   print("You are an adult")
 
 #enter your name
@@ -193,20 +193,20 @@ else:
 # # "You can't drive. You need to have a license"
 # elif age >= 18 and license == "No":
 #   print("You can't drive. You need a license.")
-# Use the code base already provided to set up the appropriate flow control structure and check those conditions.
-age = 16
-has_license = False
+# # Use the code base already provided to set up the appropriate flow control structure and check those conditions.
+# age = 16
+# has_license = False
 
-"You can drive"
-if age >= 18 and has_license == False :
-    print("You can drive")
-# "You can't drive yet. You must be 18 years old and have a license"
-elif age < 18:
-  print("You can't drive yet. You must be 18 years or older to and have a license.")
-# "You can't drive. You need to have a license"
-elif age >= 18 and has_license == False :
-  print("You can't drive. You need a license.")
-# Decision Making Practice #3
+# "You can drive"
+# if age >= 18 and has_license == False :
+#     print("You can drive")
+# # "You can't drive yet. You must be 18 years old and have a license"
+# elif age < 18:
+#   print("You can't drive yet. You must be 18 years or older to and have a license.")
+# # "You can't drive. You need to have a license"
+# elif age >= 18 and has_license == False :
+#   print("You can't drive. You need a license.")
+# # Decision Making Practice #3
 # To access a certain job, the candidate must be able to program in Python and speak French.
 
 # Create a conditional structure to evaluate a candidate given these conditions, and display the corresponding message on the screen:
@@ -257,19 +257,26 @@ knows_python = False
 # queue videos
 #what is iteration?
 #what are for loops?
-my_list = ['a','b','c','d']
-for letter in my_list:
-  letter_number = my_list.index(letter) + 1
-  print(f"letter {letter_number}: {letter}")
+# my_list = ['a','b','c','d']
+# for letter in my_list:
+#   letter_number = my_list.index(letter) + 1
+#   print(f"letter {letter_number}: {letter}")
 
-# For Loops Practice #1
+my_list = ["Paul","Laura","Jacob","Louis","Julia"]
+for name in my_list:
+  if name.startswith("L"):
+    print(name)
+else:
+  print("This name does not begin with L")
+
+# # For Loops Practice #1
 # Using For loops, greet all members of a class, printing "Hello" + their name.
 
 # For example: "Hello Norville"
 
 students = ["Norville", "Fred", "Velma", "Daphne"]
-for item in students:
-  print("Hello " + item)
+for student in students:
+  print(f"Hello {student}")
 
 
 
